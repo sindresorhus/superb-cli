@@ -1,0 +1,44 @@
+{
+	"name": "superb-cli",
+	"version": "0.0.0",
+	"description": "Get superb like words on the command-line",
+	"license": "MIT",
+	"repository": "sindresorhus/superb-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"superb": "cli.js"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"superb",
+		"awesome",
+		"word",
+		"words",
+		"list",
+		"array",
+		"random"
+	],
+	"dependencies": {
+		"meow": "^5.0.0",
+		"superb": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.10.0",
+		"xo": "*"
+	}
+}
